@@ -19,7 +19,7 @@ public class FragmentStatePagerAdapter extends android.support.v4.app.FragmentSt
         super(fragmentManager);
     }
 
-    private void addFragment(Fragment fragment, String fragmentTitle) {
+    public void addFragment(Fragment fragment, String fragmentTitle) {
         fragmentList.add(fragment);
         fragmentTitleList.add(fragmentTitle);
     }
