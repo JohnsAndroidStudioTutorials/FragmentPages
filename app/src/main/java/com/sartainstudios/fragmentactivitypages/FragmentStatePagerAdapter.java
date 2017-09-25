@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by John on 9/18/2017.
+ * Created by John Sartain on 9/18/2017.
  */
 
 public class FragmentStatePagerAdapter extends android.support.v4.app.FragmentStatePagerAdapter {
