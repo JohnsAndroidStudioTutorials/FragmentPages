@@ -9,16 +9,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+/**
+ * Created August 22nd, 2017 by John Sartain for the purpose of education.
+ * Please feel free to reuse, repurpose, redistribute this code.
+ */
 
 public class StepOne extends Fragment {
-    private static final String TAG = "LaunchAndroidStudio(1)";
     Button nextButton;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        // TODO delete        return super.onCreateView(inflater, container, savedInstanceState);
-        Log.d(TAG, "Started");
         View view = inflater.inflate(R.layout.fragment_step_one, container, false);
 
         nextButton = (Button) view.findViewById(R.id.nextButton);
